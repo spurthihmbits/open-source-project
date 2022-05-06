@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [ -f /home/oracle/files_deleted_on_$(hostname).txt ]
+then rm /home/oracle/files_deleted_on_$(hostname).txt
+fi
+
+echo "########################################" >> /home/oracle/files_deleted_on_$(hostname).txt
+echo "#Disk Space at /u01 before cleanup: $(df -Ph /u01 | awk 'NR == 2{print $5}')#" >> /home/oracle/files_deleted_on_$(hostname).txt
+echo "########################################" >> /home/oracle/files_deleted_on_$(hostname).txt
+echo "" >> /home/oracle/files_deleted_on_$(hostname).txt
+
+find /u01/app/agile/logs/* -mtime +30 -type f >> /home/oracle/files_deleted_on_$(hostname).txt
+find /u01/app/agile/logs/* -mtime +30 -type f -exec rm {} \;
+
+echo "" >> /home/oracle/files_deleted_on_$(hostname).txt
+echo "#######################################" >> /home/oracle/files_deleted_on_$(hostname).txt
+echo "#Disk Space at /u01 after cleanup: $(df -Ph /u01 | awk 'NR == 2{print $5}')#" >> /home/oracle/files_deleted_on_$(hostname).txt
+echo "#######################################" >> /home/oracle/files_deleted_on_$(hostname).txt
+
+echo "Disk Cleanup on $(hostname)" | mutt -a "/home/oracle/files_deleted_on_$(hostname).txt" -s "Disk Cleanup on $(hostname)" -- abc@example.com
+exit
