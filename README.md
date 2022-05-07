@@ -18,12 +18,12 @@ Run the py file in cmd
 
 ## To play
 
-    To download the game:
+To download the game:
 
         git clone https://github.com/kartik70rajesh/open-source-project.git
         cd open-source-project/NumberGuessingGame
 
-    To play a random game:
+To play a random game:
 
         python.exe GuessTheNumber.py
 
@@ -38,13 +38,13 @@ Here is the basic demonstration of python number guessing game. In this game cor
 
 ![image](https://user-images.githubusercontent.com/98651685/167257822-1821402c-8c52-422b-9ea1-b7c19250d4c3.png)
 
-# 2.Memory - Puzzle Pair Game
+# 2. Memory - Puzzle Pair Game
 
 ## How to run
 Requires Python 3.x and nothing but standard Python libraries.
 Run the py file in cmd
 
-## to play
+## To play
 
 To download the game:
 
@@ -60,13 +60,13 @@ To play a random game:
 Players take it in turn to pick two cards of their choosing. If the cards have the same rank (two sixes, for example), the player keeps the pair and plays again. If not, the cards are returned to their face-down position and it's the next person's turn. Play until all the cards have been matched
 
 
-# 3.Scramble words from a text file
+# 3. Scramble words from a text file
 
 ##  How to run
 Requires Python 3.x and nothing but standard Python libraries.
 Run the py file in cmd
 
-## to play
+## To play
 To download the game:
 
     git clone https://github.com/kartik70rajesh/open-source-project.git
@@ -76,7 +76,7 @@ To play a random game:
 
     python.exe scramble_words.py
     
-  #### How to play Memory - Scramble_words
+## How to play Scramble words
   
   Words less than or equal to 3 characters need not be scrambled.
   Don’t scramble first and last char, so Scrambling can become Srbmnacilg or Srbmnailcg or Snmbracilg, i.e. letters except first and last can be scrambled in any order.
