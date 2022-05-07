@@ -2,12 +2,12 @@ import random
 
 def guess():
     ''' This function guesses the randomnly generated number '''
-    randomNumber = random.randint(0, 21)
+    randomNumber = random.randint(0, 101)
     count = 0
 
     while True:
         count += 1
-        number = int(input('Enter the number between 0 to 20: '))
+        number = int(input('Enter the number between 0 to 100: '))
         if number < randomNumber:
             print('Too small')
         elif number > randomNumber:
