@@ -58,3 +58,29 @@ To play a random game:
 ## How to play Memory - Puzzle Pair Game
 
 Players take it in turn to pick two cards of their choosing. If the cards have the same rank (two sixes, for example), the player keeps the pair and plays again. If not, the cards are returned to their face-down position and it's the next person's turn. Play until all the cards have been matched
+
+
+# 3.Scramble words from a text file
+
+##  How to run
+Requires Python 3.x and nothing but standard Python libraries.
+Run the py file in cmd
+
+## to play
+To download the game:
+
+    git clone https://github.com/kartik70rajesh/open-source-project.git
+    cd open-source-project/Memory Game.py
+
+To play a random game:
+
+    python.exe scramble_words.py
+    
+  #### How to play Memory - Scramble_words
+  
+  Words less than or equal to 3 characters need not be scrambled.
+  Don’t scramble first and last char, so Scrambling can become Srbmnacilg or Srbmnailcg or Snmbracilg, i.e. letters except first and last can be scrambled in any order.
+  Punctuation at the end of the word to be maintained as is i.e. “Surprising, ” could become “Spsirnirug, ” but not “Spsirn, irug”.
+  Following punctuation marks are to be supported – Comma Question mark, Full stop, Semicolon, Exclamation.
+  Do this for a file and maintain sequences of lines.
+  On executing the program, it should prompt the user to enter input file name and generate an output file with scrambled text. The output file should be named by   appending the word “Scrambled” to the input file name.
