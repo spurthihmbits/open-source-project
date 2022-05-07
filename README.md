@@ -1,4 +1,4 @@
-# open-source-project
+# PYTHON MINI GAMES
 
 ## Group members
 
@@ -9,24 +9,24 @@
 5. Spurthi H M              -   2021mt93070
 
 
-=======
+---
 
-# Number guessing game
+# 1. Number guessing game
 
 ## How to run
 Requires Python 3.x and nothing but standard Python libraries.
 Run the py file in cmd
 
-## to play
+## To play
 
-To download the game:
+    To download the game:
 
-    git clone https://github.com/kartik70rajesh/open-source-project.git
-    cd open-source-project/NumberGuessingGame
+        git clone https://github.com/kartik70rajesh/open-source-project.git
+        cd open-source-project/NumberGuessingGame
 
-To play a random game:
+    To play a random game:
 
-    python.exe GuessTheNumber.py
+        python.exe GuessTheNumber.py
 
 ## What is the Guessing Game?
 The game is called "Guess the Number". The program thinks of an integer within a known range. The player tries to guess the number. If the guess is incorrect, then the program tells the  player whether the guess was too high or too low. Eventually, the player guesses the correct number. The player's score equals the number of guesses he made.
