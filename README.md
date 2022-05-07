@@ -9,7 +9,6 @@
 5. Spurthi H M              -   2021mt93070
 
 
----
 
 # 1. Number guessing game
 
@@ -39,3 +38,23 @@ Here is the basic demonstration of python number guessing game. In this game cor
 
 ![image](https://user-images.githubusercontent.com/98651685/167257822-1821402c-8c52-422b-9ea1-b7c19250d4c3.png)
 
+# 2.Memory - Puzzle Pair Game
+
+## How to run
+Requires Python 3.x and nothing but standard Python libraries.
+Run the py file in cmd
+
+## to play
+
+To download the game:
+
+    git clone https://github.com/kartik70rajesh/open-source-project.git
+    cd open-source-project/Memory Game.py
+
+To play a random game:
+
+    python.exe Memory Game.py
+
+## How to play Memory - Puzzle Pair Game
+
+Players take it in turn to pick two cards of their choosing. If the cards have the same rank (two sixes, for example), the player keeps the pair and plays again. If not, the cards are returned to their face-down position and it's the next person's turn. Play until all the cards have been matched
