@@ -1,12 +1,15 @@
 # open-source-project
 
 ## Group members
+
 1. Kartik Rajesh            -   2021mt93208
 2. Deepalakshmi S           -   2021mt93148
 3. Mounika R                -   2021mt93282
 4. Keren Lindshiya Joan B   -   2021mt93317
 5. Spurthi H M              -   2021mt93070
 
+
+=======
 
 # Number guessing game
 
@@ -35,3 +38,4 @@ The game is called "Guess the Number". The program thinks of an integer within a
 Here is the basic demonstration of python number guessing game. In this game correct answer is 10 and user has unlimited chances to guess the number.
 
 ![image](https://user-images.githubusercontent.com/98651685/167257822-1821402c-8c52-422b-9ea1-b7c19250d4c3.png)
+
