@@ -8,7 +8,11 @@
 4. Keren Lindshiya Joan B   -   2021mt93317
 5. Spurthi H M              -   2021mt93070
 
-
+# List of games
+1. [Number guessing game](/open-source-project#1-number-guessing-game)
+1. [Number guessing game](/open-source-project#1-number-guessing-game)
+1. [Number guessing game](/open-source-project#1-number-guessing-game)
+1. [Number guessing game](/open-source-project#1-number-guessing-game)
 
 # 1. Number guessing game
 
@@ -85,7 +89,7 @@ To play a random game:
   Do this for a file and maintain sequences of lines.
   On executing the program, it should prompt the user to enter input file name and generate an output file with scrambled text. The output file should be named by   appending the word “Scrambled” to the input file name.
   
-  # 4. Screen Pet Game
+# 4. Screen Pet Game
 
 ##  How to run
 Requires Python 3.x and nothing but standard Python libraries.
