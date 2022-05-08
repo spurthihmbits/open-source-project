@@ -9,10 +9,10 @@
 5. Spurthi H M              -   2021mt93070
 
 # List of games
-1. [Number guessing game](/kartik70rajesh/open-source-project#1-number-guessing-game)
-1. [Number guessing game](/kartik70rajesh/open-source-project#1-number-guessing-game)
-1. [Number guessing game](/kartik70rajesh/open-source-project#1-number-guessing-game)
-1. [Number guessing game](/kartik70rajesh/open-source-project#1-number-guessing-game)
+1. [Number guessing game](https://github.com/kartik70rajesh/open-source-project#1-number-guessing-game)
+2. [Memory - Puzzle Pair Game](https://github.com/kartik70rajesh/open-source-project#2-memory---puzzle-pair-game)
+3. [Scramble words from a text file](https://github.com/kartik70rajesh/open-source-project#3-scramble-words-from-a-text-file)
+4. [Screen Pet Game](https://github.com/kartik70rajesh/open-source-project#4-screen-pet-game)
 
 # 1. Number guessing game
 
