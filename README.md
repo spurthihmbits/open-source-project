@@ -84,3 +84,4 @@ To play a random game:
   Following punctuation marks are to be supported – Comma Question mark, Full stop, Semicolon, Exclamation.
   Do this for a file and maintain sequences of lines.
   On executing the program, it should prompt the user to enter input file name and generate an output file with scrambled text. The output file should be named by   appending the word “Scrambled” to the input file name.
+>>>>>>> upstream/main
