@@ -9,10 +9,10 @@
 5. Spurthi H M              -   2021mt93070
 
 # List of games
-1. [Number guessing game](/open-source-project#1-number-guessing-game)
-1. [Number guessing game](/open-source-project#1-number-guessing-game)
-1. [Number guessing game](/open-source-project#1-number-guessing-game)
-1. [Number guessing game](/open-source-project#1-number-guessing-game)
+1. [Number guessing game](/kartik70rajesh/open-source-project#1-number-guessing-game)
+1. [Number guessing game](/kartik70rajesh/open-source-project#1-number-guessing-game)
+1. [Number guessing game](/kartik70rajesh/open-source-project#1-number-guessing-game)
+1. [Number guessing game](/kartik70rajesh/open-source-project#1-number-guessing-game)
 
 # 1. Number guessing game
 
