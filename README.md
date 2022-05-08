@@ -84,4 +84,34 @@ To play a random game:
   Following punctuation marks are to be supported – Comma Question mark, Full stop, Semicolon, Exclamation.
   Do this for a file and maintain sequences of lines.
   On executing the program, it should prompt the user to enter input file name and generate an output file with scrambled text. The output file should be named by   appending the word “Scrambled” to the input file name.
->>>>>>> upstream/main
+  
+  # 4. Screen Pet Game
+
+##  How to run
+Requires Python 3.x and nothing but standard Python libraries.
+Run the py file in cmd
+
+## To play
+To download the game:
+
+    git clone https://github.com/kartik70rajesh/open-source-project.git
+    cd open-source-project/Screen Pet.py
+
+To play a random game:
+
+    python.exe Screen Pet.py
+    
+## How to play Screen Pet
+  
+Screen Pet game is an event-based program, which means the functions it performs and the order in which it performs all functions is dependent on user input. In such programs, user input can take any form, such as keypresses and mouse clicks.
+
+Below are the three features that our screen pet will perform:
+
+Happy Face: When you will click on it with the mouse the screen pet will blush and it will look happy.
+
+Cheeky Face: If you double-click it, then it will show its tongue to you.
+
+Sad Face: If you ignore it then it will become sad and the point where you click then it will become happy again.
+  
+=======
+
